@@ -1,0 +1,972 @@
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Mar-28 01:23:50
+Input : show details of all student
+Query : SELECT * FROM student
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Mar-28 01:24:08
+Input : show details of all students
+Query : SELECT * FROM student
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Mar-28 01:24:34
+Input : show details of all students having roll no greater than 30
+Query : SELECT * FROM student WHERE student.roll > '30'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Mar-28 01:26:20
+Input : show details of all students having same class;
+Query : SELECT * FROM student
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Mar-28 01:26:41
+Input : show details of all students having class as 10;
+Query : SELECT * FROM student WHERE student.class = '10'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Mar-28 01:35:56
+Input : show details of all students having class as 10;
+Query : SELECT * FROM student WHERE student.class = '10'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : lel				2018-Mar-30 03:37:02
+Input : show title of products having brand as Levis
+Query : SELECT DISTINCT products.title FROM products, brand WHERE brand.id = 'Levis'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : emp				2018-Mar-30 03:43:21
+Input : show the name of emp having cityName as pune
+Query : SELECT * FROM city
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : emp				2018-Mar-30 03:46:04
+Input : show all cityName
+Query : SELECT DISTINCT city.cityName FROM city
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : lel				2018-Mar-30 03:47:48
+Input : show the brands
+Query : SELECT DISTINCT brand.id FROM brand
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : lel				2018-Mar-30 03:48:32
+Input : show the name of  brands
+Query : SELECT * FROM brand
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : lel				2018-Mar-30 03:49:17
+Input : show the name of  brand starts with levis
+Query : SELECT * FROM brand
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : lel				2018-Mar-30 03:49:38
+Input : show the products and brands of it
+Query : SELECT DISTINCT products.id, products.brand FROM products
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : lel				2018-Mar-30 03:50:08
+Input : show the name of products and brands of it
+Query : SELECT DISTINCT products.brand, brand.id FROM brand, products
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : lel				2018-Mar-30 03:50:48
+Input : show the name of products and name of brands of it
+Query : SELECT * FROM products, brand
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : lel				2018-Mar-30 03:51:50
+Input : show the products having price greater than 20
+Query : SELECT DISTINCT products.id FROM products WHERE products.list_price > '20'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : lel				2018-Mar-31 02:39:43
+Input : show names of all brands
+Query : SELECT * FROM brand
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : lel				2018-Mar-31 02:42:46
+Input : show names of all products having price greater than 20
+Query : SELECT * FROM products WHERE products.list_price > '20'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 01:34:51
+Input : show details of stud
+Query : SELECT * FROM student
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 01:35:05
+Input : show details of stud_name 
+Query : SELECT * FROM student
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 01:35:26
+Input : show stud_name
+Query : SELECT * FROM student
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 01:35:59
+Input : show stud_name having class as 10
+Query : SELECT * FROM student WHERE student.class = '10'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 01:37:11
+Input : show stud_name having class as 10 in descending order of roll_no
+Query : SELECT DISTINCT student.roll FROM student WHERE student.class = '10' ORDER BY student.roll DESC
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 01:37:39
+Input : show details of student having class as 10 in descending order of roll_no
+Query : SELECT DISTINCT student.roll FROM student WHERE student.class = '10' ORDER BY student.roll DESC
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 01:38:00
+Input : show all details of student having class as 10 in descending order of roll_no
+Query : SELECT DISTINCT student.roll FROM student WHERE student.class = '10' ORDER BY student.roll DESC
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 01:54:38
+Input : show all details of student having class as 10 in descending order of roll_no
+Query : SELECT DISTINCT student.roll FROM student WHERE student.class = '10' ORDER BY student.roll DESC
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : world				2018-Apr-03 01:57:55
+Input : show details of country
+Query : SELECT DISTINCT country.Code, country.Code2 FROM country
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : world				2018-Apr-03 01:58:52
+Input : show all details of country
+Query : SELECT DISTINCT country.Code, country.Code2 FROM country
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : world				2018-Apr-03 01:58:55
+Input : show all details of country
+Query : SELECT DISTINCT country.Code, country.Code2 FROM country
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 02:38:46
+Input : show all deatils of students
+Query : SELECT * FROM student
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 02:39:01
+Input : show all detatils of students
+Query : SELECT * FROM student
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 02:39:23
+Input : show all detatils of students having class as 10
+Query : SELECT * FROM student WHERE student.class = '10'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 02:39:56
+Input : show all detatils of students having class as 10 order by section
+Query : SELECT * FROM student WHERE student.roll = '10'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 02:40:51
+Input : show all details of students having class as 10 in ascending order of section
+Query : SELECT DISTINCT student.section FROM student WHERE student.class = '10' ORDER BY student.section ASC
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 02:41:45
+Input : show name of students
+Query : SELECT DISTINCT student.name FROM student
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 02:42:01
+Input : show name of students in ascending order
+Query : SELECT DISTINCT student.name FROM student ORDER BY student.name ASC
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 02:42:20
+Input : show name of students in descending order
+Query : SELECT DISTINCT student.name FROM student ORDER BY student.name DESC
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 02:43:05
+Input : show name of students having maximum class
+Query : SELECT DISTINCT student.name FROM student WHERE student.class = ( SELECT MAX(student.class) FROM student )
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 02:43:32
+Input : show name of students having largest class
+Query : SELECT DISTINCT student.name FROM student WHERE student.class = ( SELECT MAX(student.class) FROM student )
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 02:43:58
+Input : show name of students having  smallest class
+Query : SELECT DISTINCT student.name FROM student WHERE student.class = ( SELECT MIN(student.class) FROM student )
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 02:45:42
+Input : show name of students in all section except a
+Query : SELECT DISTINCT student.name FROM student
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 02:46:02
+Input : show name of students in all section except section a
+Query : SELECT DISTINCT student.name FROM student
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 02:46:55
+Input : give number of students
+Query : SELECT DISTINCT student.roll FROM student
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 02:47:18
+Input : give count of students
+Query : SELECT DISTINCT student.roll FROM student
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 02:47:38
+Input : give count of student
+Query : SELECT DISTINCT student.roll FROM student
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 02:47:50
+Input : count of student
+Query : SELECT DISTINCT student.roll FROM student
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 02:47:59
+Input : count  student
+Query : SELECT DISTINCT student.roll FROM student
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 02:48:46
+Input : give sorted names of student
+Query : SELECT DISTINCT student.name FROM student ORDER BY student.name ASC
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 02:49:23
+Input : give sorted addres of student
+Query : SELECT DISTINCT student.addres FROM student ORDER BY student.addres ASC
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 02:50:05
+Input : give second highest class of student
+Query : SELECT DISTINCT student.class FROM student ORDER BY student.class DESC LIMIT 1, 1
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 02:50:29
+Input : give third highest class of student
+Query : SELECT DISTINCT student.class FROM student ORDER BY student.class DESC LIMIT 2, 1
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 02:50:49
+Input : give third highest roll of student
+Query : SELECT DISTINCT student.roll FROM student ORDER BY student.roll DESC LIMIT 2, 1
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 02:52:58
+Input : give tenth highest roll of student
+Query : SELECT DISTINCT student.roll FROM student ORDER BY student.roll DESC LIMIT 9, 1
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 02:54:04
+Input : put into student name as P roll as 2 section as kkk addres lol class as 7
+Query : 
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 02:54:23
+Input : put into student name P roll 2 section kkk addres lol class  7
+Query : 
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 02:54:31
+Input : put into student name P roll 2 section kkk addres lol class  7
+Query : 
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 02:54:49
+Input : put into student 
+Query : 
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 03:13:35
+Input : put into student 
+Query : 
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 03:13:48
+Input : put into student rajjo
+Query : 
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 03:14:32
+Input : edit student lol and put name as lel
+Query : 
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 03:14:59
+Input : edit student lol insert values name lel
+Query : 
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 03:17:17
+Input : put student ram  3  lol lol 4
+Query : 
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 03:17:27
+Input : put student ram 3 lol lol 4
+Query : 
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 03:17:47
+Input : insert in student details ram 3 lol lol 4
+Query : 
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 03:18:33
+Input : insert in student details name ram 
+Query : 
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 03:19:32
+Input : remove student sgsgsgs
+Query : DELETE FROM student
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 03:19:45
+Input : remove student name as sgsgsgs
+Query : DELETE FROM student
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 03:20:52
+Input : print stud details
+Query : SELECT * FROM student
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 03:23:55
+Input : show name of students having  smallest class
+Query : SELECT DISTINCT student.name FROM student WHERE student.class = ( SELECT MIN(student.class) FROM student )
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 03:23:58
+Input : give sorted names of student
+Query : SELECT DISTINCT student.name FROM student ORDER BY student.name ASC
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 03:24:01
+Input : show name of students having maximum class
+Query : SELECT DISTINCT student.name FROM student WHERE student.class = ( SELECT MAX(student.class) FROM student )
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 03:24:41
+Input : show name of students having  smallest class
+Query : SELECT DISTINCT student.name FROM student WHERE student.class = ( SELECT MIN(student.class) FROM student )
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 03:24:43
+Input : give sorted names of student
+Query : SELECT DISTINCT student.name FROM student ORDER BY student.name ASC
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 03:24:46
+Input : show name of students having maximum class
+Query : SELECT DISTINCT student.name FROM student WHERE student.class = ( SELECT MAX(student.class) FROM student )
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 03:25:32
+Input : show name of students having  smallest class
+Query : SELECT DISTINCT student.name FROM student WHERE student.class = ( SELECT MIN(student.class) FROM student )
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 03:25:35
+Input : give sorted names of student
+Query : SELECT DISTINCT student.name FROM student ORDER BY student.name ASC
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 03:25:38
+Input : show name of students having maximum class
+Query : SELECT DISTINCT student.name FROM student WHERE student.class = ( SELECT MAX(student.class) FROM student )
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 03:29:11
+Input : show name of students having  smallest class
+Query : SELECT DISTINCT student.name FROM student WHERE student.class = ( SELECT MIN(student.class) FROM student )
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 03:29:14
+Input : give sorted names of student
+Query : SELECT DISTINCT student.name FROM student ORDER BY student.name ASC
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 03:29:17
+Input : show name of students having maximum class
+Query : SELECT DISTINCT student.name FROM student WHERE student.class = ( SELECT MAX(student.class) FROM student )
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 03:29:42
+Input : show name of students having  smallest class
+Query : SELECT DISTINCT student.name FROM student WHERE student.class = ( SELECT MIN(student.class) FROM student )
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 03:29:45
+Input : give sorted names of student
+Query : SELECT DISTINCT student.name FROM student ORDER BY student.name ASC
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 03:29:48
+Input : show name of students having maximum class
+Query : SELECT DISTINCT student.name FROM student WHERE student.class = ( SELECT MAX(student.class) FROM student )
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 03:33:53
+Input : show name of students having  smallest class
+Query : SELECT DISTINCT student.name FROM student WHERE student.class = ( SELECT MIN(student.class) FROM student )
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 03:33:56
+Input : give sorted names of student
+Query : SELECT DISTINCT student.name FROM student ORDER BY student.name ASC
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 03:33:59
+Input : show name of students having maximum class
+Query : SELECT DISTINCT student.name FROM student WHERE student.class = ( SELECT MAX(student.class) FROM student )
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : B1				2018-Apr-03 03:39:28
+Input : show details of products having same price
+Query : SELECT * FROM product
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : B1				2018-Apr-03 03:39:41
+Input : show details of products having highest price
+Query : SELECT * FROM product WHERE product.price = ( SELECT MAX(product.price) FROM product )
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : B1				2018-Apr-03 03:40:22
+Input : show details of products having highest price or highest quantity
+Query : SELECT * FROM product WHERE product.price = ( SELECT MAX(product.price) FROM product )
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : B1				2018-Apr-03 03:40:48
+Input : show details of products having sort by price
+Query : SELECT * FROM product
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : B1				2018-Apr-03 03:41:35
+Input : show names products having price in ascending order
+Query : SELECT DISTINCT product.name FROM product ORDER BY product.name ASC
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : B1				2018-Apr-03 03:42:09
+Input :  products having price in ascending order
+Query : SELECT DISTINCT product.pid FROM product ORDER BY product.pid ASC
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : B1				2018-Apr-03 03:42:30
+Input :  products with price in ascending order
+Query : SELECT DISTINCT product.pid FROM product ORDER BY product.pid ASC
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 12:21:03
+Input : show sorted student
+Query : SELECT DISTINCT student.roll FROM student ORDER BY student.roll ASC
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 12:21:19
+Input : show sorted student name
+Query : SELECT DISTINCT student.name FROM student ORDER BY student.name ASC
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 12:21:43
+Input : show student name alphabetically
+Query : SELECT DISTINCT student.name FROM student ORDER BY student.name ASC
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : prabhav				2018-Apr-03 12:22:15
+Input : show sorted student name 
+Query : SELECT DISTINCT student.name FROM student ORDER BY student.name ASC
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 01:06:01
+Input : show employees having title as Product Manager
+Query : SELECT DISTINCT employees.emp_no FROM employees NATURAL JOIN titles WHERE employees.emp_no = 'Product Manager' AND titles.title = 'Manager'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 01:06:39
+Input : show employees who is Product Manager
+Query : SELECT DISTINCT dept_emp.emp_no FROM dept_emp, titles WHERE titles.title = 'Product Manager' AND titles.title = 'Manager'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 01:07:52
+Input : show first_name of employee whose title is Web 
+Query : SELECT * FROM titles NATURAL JOIN dept_emp NATURAL JOIN employees WHERE titles.emp_no = 'Web'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 01:09:50
+Input : show first_name of employee whose title is WebDeveloper
+Query : SELECT * FROM titles NATURAL JOIN dept_emp NATURAL JOIN employees WHERE titles.emp_no = 'WebDeveloper'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 01:10:10
+Input : show first_name of employee whose title is 'Web Developer'
+Query : SELECT * FROM titles NATURAL JOIN employees WHERE titles.emp_no = 'Web Developer' AND titles.title = 'Developer'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 01:15:50
+Input : show employees living in city Nagpur
+Query : SELECT DISTINCT employees.emp_no FROM employees NATURAL JOIN city WHERE city.cityid = 'Nagpur'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 01:16:12
+Input : show employees living in city name as Nagpur
+Query : SELECT DISTINCT dept_emp.emp_no FROM dept_emp, city WHERE city.name = 'Nagpur'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 01:18:36
+Input : show employees living in city name  Nagpur
+Query : SELECT DISTINCT employees.emp_no FROM employees NATURAL JOIN city WHERE city.name = 'Nagpur'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 01:19:12
+Input : show name of employees living in city name  Nagpur
+Query : SELECT * FROM employees NATURAL JOIN city WHERE city.name = 'Nagpur'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 01:19:39
+Input : show name of employees not living in city name  Nagpur
+Query : SELECT * FROM employees NATURAL JOIN city WHERE city.name = 'Nagpur'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 01:19:42
+Input : show name of employees not living in city name  Nagpur
+Query : SELECT * FROM employees NATURAL JOIN city WHERE city.name = 'Nagpur'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 01:20:14
+Input : show name of employees living in city name except  Nagpur
+Query : SELECT * FROM employees NATURAL JOIN city WHERE city.name = 'Nagpur'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 01:20:26
+Input : show name of employees living in city name except Nagpur
+Query : SELECT * FROM employees NATURAL JOIN city WHERE city.name = 'Nagpur'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 01:20:48
+Input : show name of employees living in except cityname Nagpur
+Query : SELECT * FROM employees NATURAL JOIN city WHERE city.name = 'Nagpur'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 01:21:01
+Input : show name of employees living in Nagpur
+Query : SELECT * FROM employees NATURAL JOIN city WHERE city.name = 'Nagpur'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 01:21:26
+Input : show name of employees living in Pune
+Query : SELECT * FROM employees NATURAL JOIN city WHERE city.name = 'Pune'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 01:22:35
+Input : show employee having highest salary
+Query : SELECT DISTINCT salaries.emp_no FROM salaries WHERE salaries.emp_no = ( SELECT MAX(salaries.emp_no) FROM salaries )
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 01:23:05
+Input : show employee name having highest salary
+Query : SELECT * FROM salaries NATURAL JOIN employees WHERE salaries.emp_no = ( SELECT MAX(salaries.emp_no) FROM salaries )
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 01:24:16
+Input : show employee name having highest salary in salaries
+Query : SELECT * FROM salaries NATURAL JOIN employees
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 01:26:28
+Input : show employee name having highest salary
+Query : SELECT * FROM employees NATURAL JOIN income WHERE income.salary = ( SELECT MAX(income.salary) FROM income )
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 01:27:02
+Input : show employee name having smallest salary
+Query : SELECT * FROM employees NATURAL JOIN income WHERE income.salary = ( SELECT MIN(income.salary) FROM income )
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 01:28:28
+Input : show employee name having salary greater than 800000
+Query : SELECT * FROM employees NATURAL JOIN income WHERE income.salary > '800000'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 01:30:14
+Input : show count of total employees
+Query : SELECT DISTINCT employees.emp_no FROM employees
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 01:30:36
+Input : show total number employees
+Query : SELECT DISTINCT employees.emp_no FROM employees
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 01:46:38
+Input : show all employees
+Query : SELECT DISTINCT employees.emp_no FROM employees
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 01:46:52
+Input : show all employees name
+Query : SELECT DISTINCT employees.emp_no FROM employees
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 01:47:12
+Input : give list of employees
+Query : SELECT * FROM employees
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 01:47:39
+Input : give list of employees having department Comp
+Query : SELECT * FROM employees NATURAL JOIN departments WHERE departments.dept_no = 'Comp'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 01:47:51
+Input : give list of employees having department Comp
+Query : SELECT * FROM employees NATURAL JOIN departments WHERE departments.dept_no = 'Comp'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 01:48:18
+Input : give list of employees having department name as Comp
+Query : SELECT * FROM employees NATURAL JOIN departments WHERE departments.dept_name = 'Comp'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 01:51:06
+Input : show employees living in city name as Nagpur
+Query : SELECT DISTINCT employees.emp_no FROM employees NATURAL JOIN city WHERE city.name = 'Nagpur'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 01:51:40
+Input : give list of employees having department Comp
+Query : SELECT * FROM employees NATURAL JOIN departments WHERE departments.dept_no = 'Comp'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 01:51:54
+Input : give list of employees having department name Comp
+Query : SELECT * FROM employees NATURAL JOIN departments WHERE departments.dept_name = 'Comp'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : test				2018-Apr-04 01:58:31
+Input : give list of employees having department name Comp
+Query : SELECT * FROM employees NATURAL JOIN departments WHERE departments.dept_name = 'Comp'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : test				2018-Apr-04 01:58:40
+Input : give list of employees having department  Comp
+Query : SELECT * FROM employees NATURAL JOIN departments WHERE departments.no = 'Comp'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : test				2018-Apr-04 01:59:27
+Input : Give the department name 
+Query : SELECT * FROM departments
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : test				2018-Apr-04 02:01:26
+Input : employee having maximum salary
+Query : SELECT DISTINCT income.emp_no FROM income WHERE income.salary = ( SELECT MAX(income.salary) FROM income )
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : test				2018-Apr-04 02:01:52
+Input : employee name having maximum salary
+Query : SELECT * FROM employees NATURAL JOIN income WHERE income.salary = ( SELECT MAX(income.salary) FROM income )
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : test				2018-Apr-04 02:02:07
+Input : Name of employee having maximum salary
+Query : SELECT DISTINCT income.emp_no FROM income WHERE income.salary = ( SELECT MAX(income.salary) FROM income )
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : test				2018-Apr-04 02:02:10
+Input : Name of employee having maximum salary
+Query : SELECT DISTINCT income.emp_no FROM income WHERE income.salary = ( SELECT MAX(income.salary) FROM income )
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 02:06:51
+Input : give employee names having salary between 750000 and 850000
+Query : SELECT * FROM employees NATURAL JOIN income WHERE ( income.salary BETWEEN '750000' AND '850000' ) 
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 02:07:04
+Input : give employee names having salary between 750000 and 950000
+Query : SELECT * FROM employees NATURAL JOIN income WHERE ( income.salary BETWEEN '750000' AND '950000' ) 
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 02:09:19
+Input : give employee names having salary greater equal to 750000 
+Query : SELECT * FROM employees NATURAL JOIN income WHERE income.salary >= '750000'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 02:21:10
+Input : show employees having city name nagpur
+Query : SELECT DISTINCT employees.emp_no FROM employees
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 02:21:25
+Input : show employees having city name Nagpur
+Query : SELECT DISTINCT employees.emp_no FROM employees NATURAL JOIN city WHERE city.name = 'Nagpur'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 02:25:19
+Input : show employees living in nagpur and has department name as comp
+Query : SELECT DISTINCT employees.emp_no FROM employees NATURAL JOIN departments
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 02:25:31
+Input : show employees living in Nagpur and has department name as comp
+Query : SELECT DISTINCT employees.emp_no FROM employees NATURAL JOIN departments NATURAL JOIN city WHERE city.name = 'Nagpur'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 02:25:47
+Input : show employees living in Nagpur and has department name as COMP
+Query : SELECT DISTINCT employees.emp_no FROM employees NATURAL JOIN departments NATURAL JOIN city WHERE city.name = 'Nagpur' AND departments.dept_name = 'COMP'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 02:25:51
+Input : show employees living in Nagpur and has department name as COMP
+Query : SELECT DISTINCT employees.emp_no FROM employees NATURAL JOIN departments NATURAL JOIN city WHERE city.name = 'Nagpur' AND departments.dept_name = 'COMP'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 02:29:05
+Input : show employees living in Nagpur and has department name as COMP
+Query : SELECT DISTINCT employees.emp_no FROM employees NATURAL JOIN departments NATURAL JOIN city WHERE city.name = 'Nagpur' AND departments.dept_name = 'COMP'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 02:29:26
+Input : show names of employees living in Pune and has department name as COMP
+Query : SELECT * FROM employees NATURAL JOIN departments NATURAL JOIN city WHERE city.name = 'Pune' AND departments.dept_name = 'COMP'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 02:29:37
+Input : show names of employees living in Pune and has department COMP
+Query : SELECT * FROM employees NATURAL JOIN departments NATURAL JOIN city WHERE city.name = 'Pune' AND departments.dept_no = 'COMP'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 02:29:40
+Input : show names of employees living in Pune and has department COMP
+Query : SELECT * FROM employees NATURAL JOIN departments NATURAL JOIN city WHERE city.name = 'Pune' AND departments.dept_no = 'COMP'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 02:29:53
+Input : show names of employees living in Pune and has department name as COMP
+Query : SELECT * FROM employees NATURAL JOIN departments NATURAL JOIN city WHERE city.name = 'Pune' AND departments.dept_name = 'COMP'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 02:39:50
+Input : show employees living in Nagpur
+Query : SELECT DISTINCT employees.emp_no FROM employees NATURAL JOIN city WHERE city.name = 'Nagpur'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 02:40:03
+Input : show names of employees living in Nagpur
+Query : SELECT * FROM employees NATURAL JOIN city WHERE city.name = 'Nagpur'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 02:42:27
+Input : show names of employees who work as Software Developer
+Query : SELECT * FROM titles WHERE titles.title = 'Software Developer' AND titles.title = 'Developer'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 02:42:40
+Input : show names of employees who work as Software 
+Query : SELECT * FROM employees NATURAL JOIN titles WHERE titles.title = 'Software'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 02:45:30
+Input : show names of employees who work as Tester 
+Query : SELECT * FROM employees NATURAL JOIN titles WHERE titles.title = 'Tester'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 02:46:06
+Input : show names of employees who is Manager 
+Query : SELECT * FROM employees NATURAL JOIN titles WHERE titles.title = 'Manager'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 02:57:22
+Input : show names of all employees
+Query : SELECT * FROM employees
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 02:57:40
+Input : show names of all titles
+Query : SELECT * FROM titles
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 02:58:03
+Input : show names of all titles
+Query : SELECT * FROM titles
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 02:58:19
+Input : show names of all distinct titles
+Query : SELECT * FROM titles
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 02:58:38
+Input : show names of all  titles group by title
+Query : SELECT * FROM titles
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 02:58:48
+Input : show names of all titles group by title
+Query : SELECT * FROM titles
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 02:58:54
+Input : show names of all titles groupby title
+Query : SELECT DISTINCT titles.emp_no FROM titles
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 02:59:19
+Input : show titles
+Query : SELECT DISTINCT titles.emp_no FROM titles
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 02:59:29
+Input : show titles names
+Query : SELECT * FROM titles
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:00:20
+Input : show name of employee
+Query : SELECT * FROM employees
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:02:43
+Input : update departments add name MECH and dept 4
+Query : UPDATE departments SET departments.dept_name = MECH
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:02:56
+Input : update departments add name MECH and dept 4
+Query : UPDATE departments SET departments.dept_name = MECH
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:03:05
+Input : update departments add name MECH and dept no as4
+Query : UPDATE departments SET departments.dept_name = MECH
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:03:11
+Input : update departments add name MECH and dept no as 4
+Query : UPDATE departments SET departments.dept_name = MECH
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:03:50
+Input : update departments add name MECH  where name is IT
+Query : UPDATE departments SET departments.dept_name = MECH WHERE departments.dept_name = 'IT'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:04:01
+Input : update departments add name MECH  where name is IT
+Query : UPDATE departments SET departments.dept_name = MECH WHERE departments.dept_name = 'IT'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:05:08
+Input : update departments add name 'MECH' where name is IT
+Query : UPDATE departments SET departments.dept_name = MECH WHERE departments.dept_name = 'IT'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:15:35
+Input : update pincode add pin 440015 where pin is 440037
+Query : UPDATE pincode SET pincode.pin = 440015 WHERE pincode.pin = '440037'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:17:01
+Input : update pincode add pin 440037 where employee firstname is Pratyush
+Query : UPDATE pincode SET pincode.pin = 440037 WHERE .employe firstnam = 'Pratyush'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:17:16
+Input : update pincode add pin 440037 where employee firstname is Pratyush
+Query : UPDATE pincode SET pincode.pin = 440037 WHERE .employe firstnam = 'Pratyush'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:17:37
+Input : update pincode add pin 440037 where employee id is 3
+Query : UPDATE pincode SET pincode.pin = 440037 WHERE .employe id = '3'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:17:53
+Input : update pincode add pin 440037 where empnois 3
+Query : UPDATE pincode SET pincode.pin = 440037 WHERE pincode.emp_no = '3'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:19:07
+Input : insert into departments deptname MECH
+Query : INSERT INTO departments ( departments.dept_no ) VALUES ( 'MECH' )
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:19:30
+Input : insert into departments deptname MECH and deptno 4
+Query : INSERT INTO departments ( departments.dept_no, departments.dept_no ) VALUES ( 'MECH' , '4' )
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:19:46
+Input : insert into departments name MECH and deptno 4
+Query : INSERT INTO departments ( departments.dept_no, departments.dept_no ) VALUES ( 'MECH' , '4' )
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:21:17
+Input : insert into pincode id 6 empno 6 pin 411111
+Query : INSERT INTO pincode ( pincode.emp_no, pincode.pin ) VALUES ( '6' , '6' )
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:21:40
+Input : insert into pincode id 6  and empno 6  and pin 411111
+Query : INSERT INTO pincode ( pincode.emp_no, pincode.pin ) VALUES ( '6' , '6' )
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:22:01
+Input : insert into empno 6  and pin 411111
+Query : INSERT INTO pincode ( pincode.emp_no, pincode.pin ) VALUES ( '6' , '411111' )
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:25:50
+Input : insert into phone emp_no 1 name HTC
+Query : 
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:26:02
+Input : insert into phone emp_no 1 and name HTC
+Query : 
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:26:11
+Input : insert into phone empno 1 and name HTC
+Query : 
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:26:47
+Input : insert into phone empno 1 and name HTC
+Query : 
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:26:55
+Input : insert into phone 
+Query : 
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:27:09
+Input : insert into phone empno 2
+Query : 
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:27:23
+Input : show all phone
+Query : SELECT DISTINCT phone.name FROM phone
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:29:23
+Input : show all phone
+Query : SELECT DISTINCT phone.emp_no FROM phone
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:29:37
+Input : show all phone name
+Query : SELECT DISTINCT phone.name FROM phone
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:30:24
+Input : insert in phone phone name as HTC empno 4
+Query : INSERT INTO phone ( phone.name, phone.emp_no ) VALUES ( 'HTC' , '4' )
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:30:38
+Input : insert in phone phone name as HTC empno 8
+Query : INSERT INTO phone ( phone.name, phone.emp_no ) VALUES ( 'HTC' , '8' )
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:30:58
+Input : insert in phone empno 8  phone name as HTC
+Query : 
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:31:11
+Input : insert in phone no 8 and phone name as HTC
+Query : INSERT INTO phone ( phone.emp_no, phone.name ) VALUES ( '8' , 'HTC' )
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:32:48
+Input : insert in phone no 5 and phone name as HTC
+Query : INSERT INTO phone ( phone.emp_no, phone.name ) VALUES ( '5' , 'HTC' )
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:33:46
+Input : insert in phone no 5 and phone name as Google
+Query : INSERT INTO phone ( phone.emp_no, phone.name ) VALUES ( '5' , 'Google' )
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:35:38
+Input : delete table temp
+Query : DELETE FROM temp
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:35:46
+Input : drop table temp
+Query : SELECT DISTINCT temp.emp_no FROM temp
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:37:20
+Input : delete from phone where phone name is Google and no is 5
+Query : DELETE FROM phone WHERE phone.name = 'Google'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:42:33
+Input : show top 4 emploees
+Query : SELECT DISTINCT titles.to_date, income.to_date FROM employees NATURAL JOIN income NATURAL JOIN titles WHERE employees.emp_no = '4'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:45:35
+Input : show first 4 emploees
+Query : SELECT DISTINCT employees.emp_no FROM employees LIMIT 4
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:45:47
+Input : show first 4 emploees name
+Query : SELECT * FROM employees LIMIT 4
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:46:58
+Input : show first emploees name
+Query : SELECT DISTINCT employees.first_name, employees.last_name FROM employees LIMIT 0, 1
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:47:28
+Input : show last emploees name
+Query : SELECT DISTINCT employees.first_name, employees.last_name FROM employees
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:47:40
+Input : show  emploees name
+Query : SELECT * FROM employees
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:47:49
+Input : show the emploees name
+Query : SELECT * FROM employees
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:48:12
+Input : show third emploees name
+Query : SELECT * FROM employees LIMIT 2, 1
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:48:24
+Input : show third employee name
+Query : SELECT * FROM employees LIMIT 2, 1
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:48:43
+Input : show third employee last name
+Query : SELECT DISTINCT employees.emp_no, employees.first_name, employees.last_name FROM employees LIMIT 2, 1
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:49:22
+Input : show  employee  name
+Query : SELECT * FROM employees
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:50:35
+Input : show count of employees group by department
+Query : SELECT COUNT( * ) FROM employees NATURAL JOIN departments
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:50:39
+Input : show count of employees group by department
+Query : SELECT COUNT( * ) FROM employees NATURAL JOIN departments
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:51:02
+Input : show count of employees group by department no
+Query : SELECT COUNT( * ) FROM employees NATURAL JOIN departments
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:51:10
+Input : show count of employees 
+Query : SELECT DISTINCT employees.emp_no FROM employees
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:51:24
+Input : show count of employees group by department no
+Query : SELECT COUNT( * ) FROM employees NATURAL JOIN departments
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:51:50
+Input : show count of employees  department 
+Query : SELECT COUNT( * ) FROM departments NATURAL JOIN employees
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:53:05
+Input : show count of employees   
+Query : SELECT DISTINCT employees.emp_no FROM employees
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:53:08
+Input : show count of employees   
+Query : SELECT DISTINCT employees.emp_no FROM employees
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:54:11
+Input : show sum of employees
+Query : SELECT DISTINCT employees.emp_no FROM employees
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:54:21
+Input : show sum of employees depart
+Query : SELECT SUM( DISTINCT employees.emp_no ) FROM employees NATURAL JOIN departments
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:56:15
+Input : show sorted emplyoees
+Query : SELECT DISTINCT employees.emp_no FROM employees ORDER BY employees.emp_no ASC
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:56:38
+Input : show sorted emplyoees 
+Query : SELECT DISTINCT employees.emp_no FROM employees ORDER BY employees.emp_no ASC
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:56:54
+Input : show sorted emplyoees 
+Query : SELECT DISTINCT employees.emp_no FROM employees ORDER BY employees.emp_no ASC
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:57:50
+Input : show sorted phone
+Query : SELECT DISTINCT phone.emp_no FROM phone ORDER BY phone.emp_no ASC
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:58:04
+Input : show sorted phone name
+Query : SELECT DISTINCT phone.name FROM phone ORDER BY phone.name ASC
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:58:53
+Input : show  phone name aplphabetically
+Query : SELECT DISTINCT phone.name FROM phone
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:59:01
+Input : show  phone name alphabetically
+Query : SELECT DISTINCT phone.name FROM phone ORDER BY phone.name ASC
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 03:59:44
+Input : show phone name in decreasing order
+Query : SELECT DISTINCT phone.name FROM phone ORDER BY phone.name DESC
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 04:00:38
+Input : show phone name in reverse order
+Query : SELECT DISTINCT phone.name FROM phone ORDER BY phone.name DESC
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 04:01:38
+Input : show sum of phone
+Query : SELECT DISTINCT phone.emp_no FROM phone
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 04:01:54
+Input : show sum of phone no
+Query : SELECT DISTINCT phone.emp_no FROM phone
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 11:21:45
+Input : show names of all employees
+Query : SELECT * FROM employees
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 11:22:01
+Input : display names of all employees
+Query : SELECT DISTINCT employees.emp_no FROM employees
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 11:22:23
+Input : list names of all employees
+Query : SELECT * FROM employees
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 11:23:35
+Input : show employee name living in Nagpur
+Query : SELECT * FROM employees NATURAL JOIN city WHERE city.name = 'Nagpur'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 11:25:43
+Input : show names of employees living in Pune and has department name as COMP
+Query : SELECT * FROM employees NATURAL JOIN departments NATURAL JOIN city WHERE city.name = 'Pune' AND departments.dept_name = 'COMP'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 11:26:51
+Input : show names of employees staying in Pune 
+Query : SELECT * FROM employees NATURAL JOIN city WHERE city.name = 'Pune'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 11:27:18
+Input : show names of employees who are Pune residents
+Query : SELECT * FROM employees NATURAL JOIN city WHERE city.name = 'Pune'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-04 11:39:31
+Input : update pincode add pin 440015 where pin is 440037
+Query : UPDATE pincode SET pincode.pin = 440015 WHERE pincode.pin = '440037'
