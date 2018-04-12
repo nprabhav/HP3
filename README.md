@@ -8,10 +8,10 @@
 
 ![logo_dekho_logo](static/images/logo1.jpg)
 
-An attempt at creating a system which converts english query to sql and display results after executing. Made in
+An attempt at creating a system which converts english query to SQL and display results after executing. Made in
 python. [Live Website](http://nprabhav.pythonanywhere.com/).
 
-Deployed here :[Website](http://nprabhav.pythonanywhere.com/)
+Deployed here :(http://nprabhav.pythonanywhere.com/)
 
 
 * Overview
@@ -22,9 +22,18 @@ Deployed here :[Website](http://nprabhav.pythonanywhere.com/)
 ## Usage
 
 ```sh
-	bash run.sh
+bash run.sh
 ```
 You don't need to really install anything. `run.sh` takes care of everything. Really.
+
+## Tools and Technologies Used
+* **Flask**
+* **Nltk**
+* **Python3**
+* **Pymysql**
+* **Xlsxwriter**
+* **Standford POS Tagger**
+* **MySQL DB**
 
 ## Description
 A software which converts Natural language statements to SQL queries
@@ -60,8 +69,25 @@ Please proceed with a Pull Request only after you're assigned. It'd be a waste o
 * [Hrishikesh Tele]
 * [Maroti Sorgekar]
 
-## The Why
+## Goals
+* User-friendly interface: To create an user-friendly interface for providing input query to the system.
+* Pre-processing of given query: To perform analysis(tokenization, NER(Named Entity Recognition) etc. on given query.
+* Analysis of given query: To find an appropriate mapping from a MySQL query dictionary using classification algorithms.
+* Execution of Query: To form, execute the required MySQL query and obtain its result-set.  	
+* Displaying Output : Display the obtained result set in form of tables, graphs etc.
 
+## The Why
+Most of the IT applications require storing and retrieving information from databases. The
+data retrieval requires the knowledge of database languages like MySQL. The user submits a
+query as text through the user interface and gets the result of the query in the text format
+using Natural Language Processing. Hence the aim of our project is to enable communication
+between people and computers without resorting to memorization of queries and procedures.
+Natural Language Processing techniques are applied on English text query to generate
+MySQL query (DML queries) on E-Commerce database. This translation uses lexical
+analyzer, parser and syntax directed translation technique. This system could handle basic
+queries asked by the user in the form of text. Adding a data dictionary like Thesaurus is
+another suggestion, which could help automating the synonymous words during the semantic
+analysis.
 
 ## License
 The MIT License (MIT) 2018 - [Prabhav Nalhe](https://github.com/nprabhav).
