@@ -26,7 +26,7 @@ query_type=""
 # overall_detail = ""
 
 
-@app.route('/login')
+@app.route('/')
 def main_prog():
     return render_template('login.html')
 

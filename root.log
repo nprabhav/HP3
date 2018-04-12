@@ -970,3 +970,7 @@ Query : SELECT * FROM employees NATURAL JOIN city WHERE city.name = 'Pune'
 IP Address : localhost		Database Name : employees				2018-Apr-04 11:39:31
 Input : update pincode add pin 440015 where pin is 440037
 Query : UPDATE pincode SET pincode.pin = 440015 WHERE pincode.pin = '440037'
+------------------------------------------------------------------------------------------------------------------------
+IP Address : localhost		Database Name : employees				2018-Apr-12 17:35:36
+Input : show all employees
+Query : SELECT DISTINCT employees.emp_no FROM employees
