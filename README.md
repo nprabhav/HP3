@@ -54,6 +54,6 @@ Please proceed with a Pull Request only after you're assigned. It'd be a waste o
 Code.Fun.Do 2017. Also python :heart:.
 
 ## License
-The MIT License (MIT) 2017 - [Prabhav Nalhe](https://github.com/nprabhav).
+The MIT License (MIT) 2018 - [Prabhav Nalhe](https://github.com/nprabhav).
 Blow yourself off. Although it would be nice of you to give us some credit. Please have a look at the [LICENSE.md](LICENSE.md) for more details.
 
