@@ -4,7 +4,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=shields)](http://makeapullrequest.com)
 > Natural Language to SQL Converter
 
-![logo_dekho_logo](static/img/HP3.PNG)
+![logo_dekho_logo](static/images/logo1.PNG)
 
 An attempt at creating a system which converts english query to sql and display results after executing. Made in
 python. [Live Website](...).
@@ -14,13 +14,13 @@ Deployed here : ...
 
 * Overview
 
-![kaun_link_par_click_kare](static/img/logo3.png)
+![kaun_link_par_click_kare](static/images/logo3.png)
 
 * Output
 
-![Output](static/img/0.png)
-![Output](static/img/6.png)
-![Output](static/img/8.png)
+![Output](static/images/0.png)
+![Output](static/images/6.png)
+![Output](static/images/8.png)
 
 
 ## Usage
