@@ -36,13 +36,13 @@ The natural language statement goes through various stages of Natural Language P
 ## Convenient screenshot
 * Output
 
-![Output](static/images/0.png)
+![Output](Output/0.png)
 
 
-![Output](static/images/6.png)
+![Output](Output/6.png)
 
 
-![Output](static/images/8.png)
+![Output](Output/8.png)
 
 
 ## Contributing
