@@ -18,9 +18,9 @@ Deployed here : ...
 
 * Output
 
-![Output](static/images/0.png)
-![Output](static/images/6.png)
-![Output](static/images/8.png)
+![Output](static/images/0.jpg)
+![Output](static/images/6.jpg)
+![Output](static/images/8.jpg)
 
 
 ## Usage
