@@ -46,12 +46,16 @@ The natural language statement goes through various stages of Natural Language P
 * Output
 
 ![Output](Output/0.png)
-
-
+![Output](Output/1.png)
+![Output](Output/3.png)
+![Output](Output/4.png)
+![Output](Output/5.png)
 ![Output](Output/6.png)
-
-
+![Output](Output/7.png)
 ![Output](Output/8.png)
+![Output](Output/9.png)
+![Output](Output/10.png)
+
 
 
 ## Contributing
