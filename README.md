@@ -6,16 +6,13 @@
 
 > Natural Language to SQL Converter
 
-![logo_dekho_logo](static/images/logo1.jpg)
+![logo_dekho_logo](static/images/logo3.jpg)
 
 An attempt at creating a system which converts english query to SQL and display results after executing. Made in
 python. [Live Website](http://nprabhav.pythonanywhere.com/).
 
 Deployed here :(http://nprabhav.pythonanywhere.com/)
 
-
-* Overview
-![kaun_link_par_click_kare](static/images/logo3.jpg)
 
 
 
