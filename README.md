@@ -41,14 +41,17 @@ Enter Password:
 You don't need to really install anything. `run.sh` takes care of everything. Really.
 
 ## Tools and Technologies Used
-* **Flask**
-* **Nltk**
-* **Python3**
-* **Pymysql**
-* **Xlsxwriter**
-* **Standford POS Tagger**
-* **MySQL DB**
-
+```
+flask
+PyMySQL
+werkzeug
+npm 
+datetime
+xlxswriter
+python3 
+Stanford POS Tagger
+Mysql DB
+```
 ## Description
 A software which converts Natural language statements to SQL queries
 
