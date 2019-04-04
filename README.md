@@ -21,6 +21,18 @@ Deployed here :(http://nprabhav.pythonanywhere.com/)
 ```sh
 bash run.sh
 ```
+
+## Packages
+
+```
+python3
+>>import nltk
+>>nltk.download('punkt')
+```
+* Download Stanford POS Tagger from https://drive.google.com/open?id=1gK8jnbgs45u69nEBMaTwx64S3Ym66-xU
+* Extract to HP3-master
+* Make sure you have java installed on your machine.
+
 You don't need to really install anything. `run.sh` takes care of everything. Really.
 
 ## Tools and Technologies Used
