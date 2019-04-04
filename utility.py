@@ -68,8 +68,8 @@ class Utility:
         #os.environ['JAVAHOME'] = java_path
         special_symbols_array = ["the", "a", "an"]
         english_postagger = StanfordPOSTagger(
-            '/lib/stanford/stanford-postagger-2018-02-27/models/english-bidirectional-distsim.tagger',
-            '/lib/stanford/stanford-postagger-2018-02-27/stanford-postagger.jar')
+            './stanford-postagger-full-2018-10-16/models/english-bidirectional-distsim.tagger',
+            './stanford-postagger-full-2018-10-16/stanford-postagger.jar')
         token_tag_array = english_postagger.tag(tokens)
         for element in token_tag_array:
             if element[0].lower() in special_symbols_array:
